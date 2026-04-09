@@ -1,0 +1,9 @@
+# 忽略舊版與測試檔案，僅保留於本機，避免上傳至 GitHub
+自動下單零股-*.js
+chatgpt改的版本.js
+auto_stock_order_upgrade_package.js
+*.zip
+自動下單零股.user.js
+
+# 例外排除，允許追蹤 3.0 主程式
+!自動下單3.0.user.js
