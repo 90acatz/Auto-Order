@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         自動下單零股 3.0
-// @namespace    https://github.com/roazhang/TdccAuto
-// @version      3.0.0
+// @namespace    https://github.com/90acatz/Auto-Order
+// @version      3.0.260413
 // @description  永豐金證券零股自動下單腳本，提供高安全性的下單前驗證、精確股票匹配機制與高效的鍵盤擬真模擬。
-// @author       roazhang & Gemini & Claude Opus 4.6
+// @author       acatz
 // @match        https://www.sinotrade.com.tw/inside/Batch_Order
 // @grant        none
 // @license      MIT
@@ -242,7 +242,7 @@
 </style>`);
 
     document.body.insertAdjacentHTML('beforeend', `<div id="_p">
-<div id="_h"><b id="_ht">自動下單零股 <span id="_gm">v3.0 正式版</span></b><button id="_tg">⌃</button></div>
+<div id="_h"><b id="_ht">自動下單零股 <span id="_gm">v3.0.260413</span></b><button id="_tg">⌃</button></div>
 <div id="_b">
 <textarea id="_ta" placeholder="輸入股票代號&#10;換行/逗號/空格皆可"></textarea>
 <div id="_pv">尚未輸入代號</div>
@@ -256,7 +256,7 @@
 <button class="rb" id="_bx">■ 停止</button>
 <button class="rb" id="_bc">✕</button>
 </div>
-<div id="_ver">v3.0.0</div>
+<div id="_ver">v3.0.260413</div>
 </div></div>`);
 
     // ==============================================
