@@ -28,10 +28,18 @@
 
 ## 📦 安裝方式
 
-1. 安裝 [Tampermonkey](https://www.tampermonkey.net/) 擴充功能
-2. 點擊本專案中的 `自動下單3.0.user.js` 並選擇「安裝」加入腳本庫
-   （若有舊版本，建議先移除以免衝突）
-3. 前往永豐批次下單網頁，頁面載入後右上角自動浮出控制面板
+### 第一步：安裝 TamperMonkey
+- Chrome：[安裝 Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- Edge：[安裝 Tampermonkey](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+
+### 第二步：一鍵安裝腳本
+
+點擊下方連結，TamperMonkey 會自動偵測並詢問是否安裝：
+
+**👉 [點此安裝 自動下單3.0.user.js](https://raw.githubusercontent.com/90acatz/Auto-Order/main/%E8%87%AA%E5%8B%95%E4%B8%8B%E5%96%AE3.0.user.js)**
+
+> 或手動下載 `自動下單3.0.user.js`，在 TamperMonkey 中選擇「從檔案安裝」。  
+> 若有舊版本，建議先停用或移除以免衝突。
 
 ---
 
